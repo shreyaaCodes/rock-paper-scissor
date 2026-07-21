@@ -1,0 +1,10 @@
+name = input("name :")
+age = int(input("age :"))
+qualification = input("qualification :")
+print("My name is " , name , "I am" ,age, "year's old" " My qualification is",qualification,)
+#name=str(input("enter name:"))
+marks= float(input("enter marks:"))
+ 
+print("Welcome", name )
+print("age" , age)
+print("marks" , marks)

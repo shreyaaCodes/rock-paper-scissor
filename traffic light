@@ -1,0 +1,465 @@
+# light=input("light")
+# if(light=="red"):
+#     print("stop")
+# elif(light=="yellow"):
+#     print("look")
+# elif(light=="green"):
+#     print("go")
+# else:
+#     print("light is broken") 
+
+#WAP to check if a number entered by the user is odd or even .
+# num=int(input("enter the number:"))
+
+# rem =num % 2
+# if(rem==0):
+#     print("even")
+# else:
+#     print("odd")    
+
+#WAP to find the gratest of 3 numbers entered by the user.
+# a=int(input("enter the first number :"))
+# b= int(input("enter the second number :"))
+# c= int(input("enter the third number :"))
+# if(a >= b and a >= c):
+#     print("the first number is the greatest number")
+# elif(b>=c):
+#     print("the second number is the greatest number")
+# else:
+#     print("the third number  is the greatest number")    
+
+
+#WAP to check if a number is a multiple of 7 or not .
+# num=int(input("Enter the number:"))
+# rem= num % 7
+# if(rem==0):
+#     print("the number is multiple of 7")
+# else:
+#     print("the number is not multiple of 7")    
+
+
+#LISTS
+# marks = [23,34,56,78,98,87,45,43,13]
+# print(marks)
+# print(type(marks))
+# print(marks[0])
+# print(marks[7])
+# student = ["shreyaa",45.5, "badmintion", "dosa", "physics",21, "gurgaon"]
+# # print(student)
+# print(student[3])
+# print(student[2])
+# student[2]= "91.7"
+# print(student[2])
+# print(student[0:5])  
+# print(student[-1:-4])
+# print(len(student))
+# list = [3 , 5, 7, 3, 6, 10, 17]
+# print(list.append(20))
+# print(list)
+# print(list.sort())
+# print(list)
+# print(list.sort(reverse=True))
+# print(list)
+# list.remove(3)
+# print(list)
+# list.reverse()
+# print(list)
+# list.pop(3)
+# print(list)
+
+#TUPLE
+# tup = (2,3,4,2,3,4,17)
+# print(tuple)
+# print(type(tuple))
+# tuple = (4,)
+# print(tuple)
+# print(type(tuple))
+# print(tuple[2:4])
+# print(tup.index(2,))
+# print(tup.count(4,))
+
+
+#WAP to ask the to enter the names of their 3 faviourite movies and store them in a list.
+# movies = [] 
+# movie1 = input("enter the 1st movie")
+# movie2 = input("enter the 2nd movie")
+# movie3 = input("enter the 3rd movie")
+# movies.append(movie1)
+# movies.append(movie2)
+# movies.append(movie3)
+# print(movies)
+
+
+#WAP to check if a list contains a palindrome of elements.
+# list = [1 , 2 , 3 , 2 , 1]
+# list.copy()
+# print(list)
+# list.reverse()
+# print(list)
+# if(list.copy() == list):
+#     print("It is a palindrome")
+# else:
+#     print("It is not palindrome")    
+
+
+#WAP to count the number of studentswith grade A in the following tuple
+#["C", "D", "A", "A","B", "B","A"]
+#store the above values in list and sort them from "A"TO "D".
+# gradeofstudents = ("C","D","A","A","B","B","A")
+# print(gradeofstudents.count("A"))
+# gradeofstudents = ["C","D","A","A","B","B","A"]
+# print(type(gradeofstudents))
+# gradeofstudents.sort()
+# print(gradeofstudents)
+
+#DICTONARY
+# info = {
+#     "name" : "shreya",
+#     "age" : 21,
+#     "books" : ["science" , "maths" , "gk"],
+#     "cgpa" : 98.99,
+# }
+# print(info)
+# print(type(info))
+# info["name"] = "Ankur",#overwrite (it assigns new value of key instead of old value)
+# print(info)
+# info["name"] = "ankur",
+# info["surname"] = "singh",
+# print(info)
+# #NESTED DICTONARY
+# student = {
+#     "name" : "Rahul Kumar",
+#     "subjects" : {
+#         "pps" : 67.8,
+#         "python" : 98,
+#         "DSA" : 45.6,
+#         "DAA" : 78,
+#     }
+
+# }
+# print(student)
+# print(student["subjects"]["pps"])
+# print(student["subjects"]["DAA"])
+# print(student["subjects"]["python"]) #nested dictonary
+
+#DICTONARY METHOD
+# brother = {
+#     "name": "Ankur Singh",
+#     "standard": 10,
+#     "school":"Narayna",
+#     "subject" : {
+#         "maths": 78.7,
+#         "physics": 98.6,
+#         "history":67,
+#      }
+# }
+# # print(brother)
+# print(brother.keys())
+# print(brother.values())
+# print(brother.get("school"))
+# sibling = {
+#     "name" :  "Shreya Singh",
+#     "age" : 21,
+# }
+# brother.update(sibling)
+# print(brother)
+
+#SETS
+# collection= {1 , 2 ,2 , 3 ,4 , 5 , 5 , 6}
+# print(collection)
+# print(type(collection))
+
+#SETS METHOD
+# group = {1, 1, 2, 3,3,3,7,6,9,9,9,8,8,8}
+# group.add((1, 2,5))
+# group.add("i am the best")
+# print(len(group))
+# print(group.clear())
+# group.add(4)
+# print(group)
+# group.remove(9)
+# print(group)
+# group.pop()
+# print(group.pop())
+# print(group.pop())
+# group1= {12, 14,14,15}
+# group2= {12, 15,16, 17}
+# group1.union(group2)
+# print(group1.union(group2))
+# print(group1.intersection(group2))
+
+#Store a followiwng word meaninngs in a python dictionary:
+#"table": "a peice of furniture" , "list of facts and figures"
+#"cat": "a small animal"
+# dict={
+#     "cat": "a small animal",
+#     "table":["a peice of funiture", "list of facts and figures"],
+# }
+# print(dict)
+
+#You are given to a list of subjects for students . Assume one classroom is requried for one subject. How many classrooms are requride  by all students? 
+# "python" ,  "java" , "C++" , "python" , "javqascript" , "java" , "python" , "java" , "c++" , "C"
+# subjects = {"python" ,  "java" , "C++" , "python" , "javqascript" , "java" , "python" , "java" , "C++" , "C"}
+# print(subjects)
+# print(len(subjects))#number of classrooms are requried by all students
+
+# #WAP to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add one by one . Use subject name as key and marks as value.
+# marks = {}
+
+# x = int(input("enter the marks of physics : "))
+# marks.update({"marks of physics" : x})
+
+# x = int(input("enter the marks of chemistry: "))
+# marks.update({"marks of chemistry" : x})
+
+# x = int(input("enter the marks of biology : "))
+# marks.update({"marks of biology" : x})
+# print(marks)
+
+#Figure out a way to store 9 and 9.0 as seperate values in the set .
+#(you can take help of built in data types)
+
+#FIRST METHOD
+# values = {9 , "9.0"}#take 9 as it is and 9.0 as float
+# print(values)
+# print(type(values))
+
+#SECOND METHOD
+# values ={ (9.0 , "int"), (9.0 , "float")}
+# print(values)
+# print(type(values))
+
+#WHILE LOOPS
+#print numbers from 1to 100.
+# i = 1 #initialise the i
+# while i <= 100 :
+#     print(i)
+#     i+=1
+
+#Print numbers froom 100 to 1
+# i = 100
+# while i>=1 : #this is a stopping condition
+#      print(i)
+#      i-=1
+
+#Print the multiplication table of a number n.
+# n = int(input("enter the number"))
+# i = 1
+# while i <= 10:
+#      print(n*i)
+#      i+=1
+
+#Print the elements of the following list using a loop:
+#[1,4,9,16,25,36,49,64,81,100] = 0
+# while index <len(nums):
+#     print(nums[index])
+#     index+=1
+#Search for the number x in this tuple using loop:
+#(1,4,9,16,25,36,49,64,81,100)
+
+# nums =(1,4,9,16,25,36,49,64,81,100)
+
+# x = 36
+# i = 0
+# while i < len(nums):
+#     if(nums[i] ==x):
+#         print("found at index" , i)
+#         break
+#     else:
+#         print("finding")  
+#     i+=1      
+
+# #BREAK
+# i=0
+# while i <= 10:
+#     print(i)
+#     if(i==4):
+#        break 
+#     i+=1
+#CONTINUE
+# i=0
+# while i <=20:
+#     if(i%2 == 0):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+    
+
+    #FOR LOOP
+# i=0
+# list=[3 ,4 ,3,6,7]
+# for value in list:
+#     print(value)
+
+
+# fruits = ("jackfruit" , "guava" , "mango" , "papaya")
+# for values in fruits:
+#     print(values)
+# else:
+#     print("END")    
+
+#using for
+#Print the elements of the following list usinf a loop:
+#[1,4,9,16,25,36,49,64,81,100]
+# list =[1,4,9,16,25,36,49,64,81,100] 
+# for elements in list:
+#     print(elements)
+# else:
+#     print("END") 
+
+#search for the number x in this tuple using loop:
+# [1,4,9,16,25,36,49,64,81,100,]# linear search
+# tuple = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# x = 36
+# idx = 0
+
+# for element in tuple:
+#     if element == x:
+#         print("Number found at index", idx)
+#         break  # Stop after finding
+#     idx += 1
+
+#PRINT NUMBERS FROM 0 TO 100 USING FOR AND RANGE
+# for i in range(1 , 100):
+#     print(i)
+
+#PRINT NUMBERS FROM 100 TO 1 USING FOR AND RANGE
+# for i in range(100 , 1 , -1):
+#     print(i)
+
+#PRINT THE MULTIPLICATION TABLE OF THE NUMNER n
+# n = int(input("enter the number"))
+# for i in range(1,11):
+#     print(n*i)
+
+#PASS
+# for el in range(19):
+# #     pass
+# # print("shreya singh")
+#   if(el > 5):
+#     pass
+# print("python")
+
+#WAP TO FIND THE SUM OF FIRST N NUMBERS.(USING WHILE)
+# n = 7
+# sum = 0
+# i = 1
+# while i<= n:
+#     sum+=i
+#     i +=1 
+
+
+#     print("totalsum=" , sum)
+
+#WAP TO FIND A FACTORIAL OF FIRST N NUMBERS . USING FOR
+# n = 5
+# factorial = 1
+# i= 1
+# for i in range(1, n+1):
+#     factorial*= i
+#     print("factorial =" , factorial)
+
+#FUNCTION
+#average of three numbers
+# def average_value(a,b, c):
+#     sum = a+b+c
+#     calcavg = sum/3
+#     print(calcavg)
+#     return calcavg
+
+# average_value(34.5, 45.77 , 23.78)
+
+#WAP TO PRINT THE LENGTH OF A LIST.(LIST IS THE PARAMETER)
+# cities = ["delhi" , "gurgaon" , "mumbai" , "chennai" , "pune"]
+# def print_len(list):
+#     print(len(list))
+# print_len(cities)
+ 
+#WAP TO PRINT THE ELEMENTS OF A LIST IN A SINGLE LINE.(LIST IS THE PARAMETER)
+# heros = ["varun dhawan" , "vikrant massy" , "r madhwan" , "sarukh khan"]
+# print(heros[0] , end=" ")
+# print(heros[1] , end =" ")
+# print(heros[2] , end =" ")
+# print(heros[3] , end =" ")
+# def print_list(list):
+#     for items in list :
+#         print(items , end = " ")
+# print_list(heros)
+
+#WAP TO FIND THE FACTORIAL OF N.(N IS THE PARAMETER)
+# n = 6
+# def calfact(n):
+#     fact = 1
+#     for i in range(1 , n+1):
+#         fact*=i
+#     print(fact)
+# calfact(6)   
+
+
+#WAP TO CONVERT USD TO INR.
+# def converter(usd_values):
+#     inr_values = usd_values*85
+#     print(usd_values, "USD = " , inr_values, "INR")
+# converter(100)
+
+# def check_even_or_odd(number):
+#     if number%2 == 0:
+#         return "even"
+#     else:
+#         return "odd"  
+# result = check_even_or_odd(5)     
+# print(result)  
+
+#RECUSION
+# def show(n):
+#     if(n==0):
+#         return
+#     print(n)
+#     show(n-1) 
+#     print("end")  
+
+# show(5) 
+
+#RECURSION USING FACTORIAL
+# def fact(n):
+#     if(n==1 or n==0):
+#         return 1
+#     else:
+#         return fact(n-1)*n
+
+# print(fact(6))
+
+#WRITE A RECURSIVE FUNCTION TO CALCULATE THE SUM OF FIRST N NATURAL NUMBERS.
+# def calc_sum(n):
+#     if(n==0):
+#         return 0
+#     print(n)
+#     return calc_sum(n-1)+n
+
+
+# sum = calc_sum(5)
+           
+# print(sum)
+
+# WRITE A RECURSIVE FUNCTION TO PRINT ALL ELEMENTS IN A LIST.
+#HINT : USE LIST AND INDEX AS PARAMETERS.
+# def print_list(list , index =0):
+#     if(index == len(list)):
+#         return
+#     print(list[index])
+#     print_list(list , index+1)
+
+# veggies= ["brinjal" , "ladyfinger" , "potato" , "tomato" , "green chilli"]
+# print_list(veggies)
+# f = open("demo.txt" , "r")
+# data = f.read()
+# print(data)
+# print(type(data))
+# f.close()
+f = open("demo.txt" , "r")
+# data = f.read(20)
+# print(data)
+# line5 = f.readline()  
+# print(line5)
+# f.close()
