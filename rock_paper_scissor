@@ -9,6 +9,8 @@ print("Computer chose:", computer_choice)
 
 if user_choice == computer_choice:
     print("It's a tie!")
+elif user_choice != ["rock","paper", "scissor"]:
+    print("You entered wrong info. You lose!")    
 elif user_choice == "rock" and computer_choice == "scissors":
     print("You win!")
 elif user_choice == "paper" and computer_choice == "rock" :
