@@ -1,9 +1,0 @@
-#principle value
-p=int(input("p"))
-#rate value 
-r=int(input("r"))
-#time value
-t=int(input("t"))
-#calculate simple intrest using the principle,rate and time value
- #  S.I= p*r*t/100
-print(p*r*t/100) 
